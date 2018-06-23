@@ -76,7 +76,7 @@
 	<footer id="footer">
 		<div class="footer-social text-center">
 			<a class="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i> <span class="hidden-sm hidden-xs">Facebook</span></a>
-			<a class="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i> <span class="hidden-sm hidden-xs">Twitter</span></a>
+			<a class="twitter" href="https://www.facebook.com/sharer/sharer.php?u=http://jorenvanhocht.be" target="_blank"><i class="fa fa-twitter"></i> <span class="hidden-sm hidden-xs">Twitter</span></a>
 			<a class="google-plus" href="#" target="_blank"><i class="fa fa-google-plus"></i> <span class="hidden-sm hidden-xs">Google+</span></a>
 			<a class="pinterest" href="#" target="_blank"><i class="fa fa-pinterest-p"></i> <span class="hidden-sm hidden-xs">Pinterest</span></a>
 			<a class="instagram" href="#" target="_blank"><i class="fa fa-instagram"></i> <span class="hidden-sm hidden-xs">Instagram</span></a>
@@ -113,5 +113,7 @@
 	<script type="text/javascript" src="../public/client/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="../public/client/js/jquery.slicknav.js"></script>
 	<script type="text/javascript" src="../public/client/js/scripts.js"></script>
+	<script  src = " https://code.jquery.com/jquery-3.1.1.min.js " > </script>
+	<script type="text/javascript" src = "{{asset ('js / share.js')}}"> </script>
 </body>
 </html>

@@ -32,7 +32,7 @@
 				</p>
 			</div>
 			<div class="col-md-12" style="clear: both; top: 50px;">
-				<fieldset>
+				<fieldset style="text-decoration: none;">
 					<legend>Nội dung chính</legend>
 					<?php foreach ($arr as $value) { echo $value->content;} ?>
 				</fieldset>
